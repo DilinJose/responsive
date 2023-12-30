@@ -168,7 +168,7 @@ height: 27.417px;
     transition: transform .7s ease-in-out;
   }
   .svg:hover {
-    transform: rotate(360deg);
+    transform: rotate(90deg);
   }
 
 @media  (max-width: 768px) {
