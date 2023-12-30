@@ -1,47 +1,15 @@
-import React from 'react';
+import React from 'react'
 
 const Header = () => {
   return (
-    <div>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            Navbar
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
-                  Home
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Features
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Pricing
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+    <div className='close d-flex justify-content-end w-100 p-5'>
+        <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31" fill="none">
+<path d="M1.79175 1.79175L29.2084 29.2084" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<path d="M1.79175 29.2084L29.2084 1.79175" stroke="white" stroke-width="2" stroke-linecap="round"/>
+</svg>
+        {/* <button>X</button> */}
     </div>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header

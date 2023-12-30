@@ -1,22 +1,11 @@
-import React from 'react';
+import React from 'react'
 
 const Footer = () => {
   return (
-    <div>
-      <div className="d-flex justify-content-center align-items-center  ">
-        <span className='text-size m-2'>Footer</span>
-        <span className='m-2'>Footer</span>
-        <span className='m-2'>Footer</span>
-        <span className='m-2'>Footer</span>
-      </div>
-
-      <div className="d-flex justify-content-center align-items-center">
-        <span className='m-2'>Footer</span>
-        <span className='m-2'>Footer</span>
-        <span className='m-2'>Footer</span>
-      </div>
+    <div className='mt-5 pt-5'>
+        <p  className='footer text-center'>© 2019-2023 abcTechnology Solutions Pvt. Ltd. All Rights Reserved</p>
     </div>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer
