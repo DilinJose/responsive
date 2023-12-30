@@ -164,6 +164,12 @@ flex-shrink: 0;
 width: 27.417px;
 height: 27.417px;
 }
+.svg {
+    transition: transform .7s ease-in-out;
+  }
+  .svg:hover {
+    transform: rotate(360deg);
+  }
 
 @media  (max-width: 768px) {
     .section1-button {
